@@ -82,8 +82,7 @@ struct LoginView: View {
                 .padding(.horizontal, 20)
                 .textFieldStyle(.roundedBorder)
                 .frame(maxWidth: 350)
-                
-                
+ 
             }
         }
     }
