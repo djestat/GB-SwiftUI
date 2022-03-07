@@ -10,7 +10,11 @@
 		5806E1DB27D5F83C00EE6E85 /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1DA27D5F83C00EE6E85 /* UserCellView.swift */; };
 		5806E1DF27D5F8E800EE6E85 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1DE27D5F8E800EE6E85 /* View.swift */; };
 		5806E1E127D6007000EE6E85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1E027D6007000EE6E85 /* SceneDelegate.swift */; };
-		5806E1E327D6058900EE6E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1E227D6058900EE6E85 /* AppDelegate.swift */; };
+		5806E1E627D60A5600EE6E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1E527D60A5600EE6E85 /* AppDelegate.swift */; };
+		5806E1E827D60D3B00EE6E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5806E1E727D60D3B00EE6E85 /* Main.storyboard */; };
+		5806E1EC27D60E5000EE6E85 /* KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1EB27D60E5000EE6E85 /* KeyboardNotification.swift */; };
+		5806E1EE27D60FA300EE6E85 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1ED27D60FA300EE6E85 /* Notification.swift */; };
+		5806E1F027D610CE00EE6E85 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1EF27D610CE00EE6E85 /* UIApplication.swift */; };
 		586BE34427D2ACBA006DE48F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586BE34327D2ACBA006DE48F /* LoginView.swift */; };
 		586BE34627D2ACBB006DE48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586BE34527D2ACBB006DE48F /* Assets.xcassets */; };
 		586BE34927D2ACBB006DE48F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586BE34827D2ACBB006DE48F /* Preview Assets.xcassets */; };
@@ -20,8 +24,12 @@
 		5806E1DA27D5F83C00EE6E85 /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
 		5806E1DE27D5F8E800EE6E85 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		5806E1E027D6007000EE6E85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5806E1E227D6058900EE6E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5806E1E427D6063700EE6E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5806E1E527D60A5600EE6E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5806E1E727D60D3B00EE6E85 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5806E1EB27D60E5000EE6E85 /* KeyboardNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardNotification.swift; sourceTree = "<group>"; };
+		5806E1ED27D60FA300EE6E85 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		5806E1EF27D610CE00EE6E85 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		586BE33E27D2ACBA006DE48F /* GB-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GB-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586BE34327D2ACBA006DE48F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		586BE34527D2ACBB006DE48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +50,7 @@
 		5806E1D527D5F7EA00EE6E85 /* APP */ = {
 			isa = PBXGroup;
 			children = (
+				5806E1E927D60E0700EE6E85 /* BusinessLogic */,
 				5806E1D627D5F7F700EE6E85 /* Flow */,
 			);
 			path = APP;
@@ -92,8 +101,26 @@
 			isa = PBXGroup;
 			children = (
 				5806E1DE27D5F8E800EE6E85 /* View.swift */,
+				5806E1ED27D60FA300EE6E85 /* Notification.swift */,
+				5806E1EF27D610CE00EE6E85 /* UIApplication.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5806E1E927D60E0700EE6E85 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				5806E1EA27D60E2000EE6E85 /* NotificationCenter */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		5806E1EA27D60E2000EE6E85 /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				5806E1EB27D60E5000EE6E85 /* KeyboardNotification.swift */,
+			);
+			path = NotificationCenter;
 			sourceTree = "<group>";
 		};
 		586BE33527D2ACBA006DE48F = {
@@ -115,11 +142,12 @@
 		586BE34027D2ACBA006DE48F /* GB-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				5806E1E227D6058900EE6E85 /* AppDelegate.swift */,
+				5806E1E527D60A5600EE6E85 /* AppDelegate.swift */,
 				5806E1E027D6007000EE6E85 /* SceneDelegate.swift */,
 				5806E1D527D5F7EA00EE6E85 /* APP */,
 				5806E1DC27D5F8BE00EE6E85 /* Core */,
 				586BE34527D2ACBB006DE48F /* Assets.xcassets */,
+				5806E1E727D60D3B00EE6E85 /* Main.storyboard */,
 				5806E1E427D6063700EE6E85 /* Info.plist */,
 				586BE34727D2ACBB006DE48F /* Preview Content */,
 			);
@@ -192,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5806E1E827D60D3B00EE6E85 /* Main.storyboard in Resources */,
 				586BE34927D2ACBB006DE48F /* Preview Assets.xcassets in Resources */,
 				586BE34627D2ACBB006DE48F /* Assets.xcassets in Resources */,
 			);
@@ -204,10 +233,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5806E1F027D610CE00EE6E85 /* UIApplication.swift in Sources */,
 				5806E1E127D6007000EE6E85 /* SceneDelegate.swift in Sources */,
+				5806E1EC27D60E5000EE6E85 /* KeyboardNotification.swift in Sources */,
 				5806E1DF27D5F8E800EE6E85 /* View.swift in Sources */,
+				5806E1EE27D60FA300EE6E85 /* Notification.swift in Sources */,
 				586BE34427D2ACBA006DE48F /* LoginView.swift in Sources */,
-				5806E1E327D6058900EE6E85 /* AppDelegate.swift in Sources */,
+				5806E1E627D60A5600EE6E85 /* AppDelegate.swift in Sources */,
 				5806E1DB27D5F83C00EE6E85 /* UserCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

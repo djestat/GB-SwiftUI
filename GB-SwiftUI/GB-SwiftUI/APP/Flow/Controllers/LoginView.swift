@@ -11,18 +11,10 @@ struct LoginView: View {
     
     @State private var login: String = ""
     @State private var password: String = ""
-    
+        
     var body: some View {
         ZStack {
             GeometryReader { proxy in
-                /*
-                Image("VKlogo")
-                    .resizable()
-                    .edgesIgnoringSafeArea(.all)
-                    .scaledToFill()
-                    .frame(width: proxy.size.width,
-                           height: proxy.size.height)
-                */
                 LinearGradient(colors:
                                 [.white.opacity(0.85),
                                  .blue.opacity(0.15)],
@@ -84,6 +76,8 @@ struct LoginView: View {
                 .frame(maxWidth: 350)
  
             }
+        }.onTapGesture {
+            UIApplication.shared.endEditing()
         }
     }
     
