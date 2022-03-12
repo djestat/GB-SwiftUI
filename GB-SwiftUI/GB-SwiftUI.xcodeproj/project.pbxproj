@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5806E1DB27D5F83C00EE6E85 /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1DA27D5F83C00EE6E85 /* UserCellView.swift */; };
+		5806E1DB27D5F83C00EE6E85 /* FriendCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1DA27D5F83C00EE6E85 /* FriendCellView.swift */; };
 		5806E1DF27D5F8E800EE6E85 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1DE27D5F8E800EE6E85 /* View.swift */; };
 		5806E1E127D6007000EE6E85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1E027D6007000EE6E85 /* SceneDelegate.swift */; };
 		5806E1E627D60A5600EE6E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1E527D60A5600EE6E85 /* AppDelegate.swift */; };
@@ -15,13 +15,20 @@
 		5806E1EC27D60E5000EE6E85 /* KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1EB27D60E5000EE6E85 /* KeyboardNotification.swift */; };
 		5806E1EE27D60FA300EE6E85 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1ED27D60FA300EE6E85 /* Notification.swift */; };
 		5806E1F027D610CE00EE6E85 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5806E1EF27D610CE00EE6E85 /* UIApplication.swift */; };
+		581A1CE927DCB5F8004C103A /* BorderShadowBackgroundViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A1CE827DCB5F8004C103A /* BorderShadowBackgroundViewModifier.swift */; };
+		581A1CEB27DCBE6A004C103A /* AvatarViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A1CEA27DCBE6A004C103A /* AvatarViewModifier.swift */; };
+		581A1CEE27DCC403004C103A /* CustomRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A1CED27DCC403004C103A /* CustomRowView.swift */; };
+		581A1CF227DCD335004C103A /* FriendResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A1CF127DCD335004C103A /* FriendResult.swift */; };
+		581A1CF527DCD4D6004C103A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A1CF427DCD4D6004C103A /* ApiManager.swift */; };
+		581A1CF727DCD66C004C103A /* GroupsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A1CF627DCD66C004C103A /* GroupsResult.swift */; };
+		581A1CFB27DCE64B004C103A /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A1CFA27DCE64B004C103A /* RoundedCornerShape.swift */; };
 		586BE34427D2ACBA006DE48F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586BE34327D2ACBA006DE48F /* LoginView.swift */; };
 		586BE34627D2ACBB006DE48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586BE34527D2ACBB006DE48F /* Assets.xcassets */; };
 		586BE34927D2ACBB006DE48F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586BE34827D2ACBB006DE48F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5806E1DA27D5F83C00EE6E85 /* UserCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
+		5806E1DA27D5F83C00EE6E85 /* FriendCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCellView.swift; sourceTree = "<group>"; };
 		5806E1DE27D5F8E800EE6E85 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		5806E1E027D6007000EE6E85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5806E1E427D6063700EE6E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -30,6 +37,13 @@
 		5806E1EB27D60E5000EE6E85 /* KeyboardNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardNotification.swift; sourceTree = "<group>"; };
 		5806E1ED27D60FA300EE6E85 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		5806E1EF27D610CE00EE6E85 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		581A1CE827DCB5F8004C103A /* BorderShadowBackgroundViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderShadowBackgroundViewModifier.swift; sourceTree = "<group>"; };
+		581A1CEA27DCBE6A004C103A /* AvatarViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewModifier.swift; sourceTree = "<group>"; };
+		581A1CED27DCC403004C103A /* CustomRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRowView.swift; sourceTree = "<group>"; };
+		581A1CF127DCD335004C103A /* FriendResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendResult.swift; sourceTree = "<group>"; };
+		581A1CF427DCD4D6004C103A /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		581A1CF627DCD66C004C103A /* GroupsResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsResult.swift; sourceTree = "<group>"; };
+		581A1CFA27DCE64B004C103A /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
 		586BE33E27D2ACBA006DE48F /* GB-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GB-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586BE34327D2ACBA006DE48F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		586BE34527D2ACBB006DE48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +64,7 @@
 		5806E1D527D5F7EA00EE6E85 /* APP */ = {
 			isa = PBXGroup;
 			children = (
+				581A1CEF27DCD30A004C103A /* Entity */,
 				5806E1E927D60E0700EE6E85 /* BusinessLogic */,
 				5806E1D627D5F7F700EE6E85 /* Flow */,
 			);
@@ -84,7 +99,7 @@
 		5806E1D927D5F82000EE6E85 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				5806E1DA27D5F83C00EE6E85 /* UserCellView.swift */,
+				5806E1DA27D5F83C00EE6E85 /* FriendCellView.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -92,6 +107,7 @@
 		5806E1DC27D5F8BE00EE6E85 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				581A1CE627DCB53F004C103A /* UI */,
 				5806E1DD27D5F8D600EE6E85 /* Extensions */,
 			);
 			path = Core;
@@ -110,6 +126,7 @@
 		5806E1E927D60E0700EE6E85 /* BusinessLogic */ = {
 			isa = PBXGroup;
 			children = (
+				581A1CF327DCD4C6004C103A /* Networking */,
 				5806E1EA27D60E2000EE6E85 /* NotificationCenter */,
 			);
 			path = BusinessLogic;
@@ -121,6 +138,66 @@
 				5806E1EB27D60E5000EE6E85 /* KeyboardNotification.swift */,
 			);
 			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		581A1CE627DCB53F004C103A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				581A1CFC27DCE66A004C103A /* Shapes */,
+				581A1CEC27DCC3E5004C103A /* ListCells */,
+				581A1CE727DCB551004C103A /* ViewModifiers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		581A1CE727DCB551004C103A /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				581A1CE827DCB5F8004C103A /* BorderShadowBackgroundViewModifier.swift */,
+				581A1CEA27DCBE6A004C103A /* AvatarViewModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		581A1CEC27DCC3E5004C103A /* ListCells */ = {
+			isa = PBXGroup;
+			children = (
+				581A1CED27DCC403004C103A /* CustomRowView.swift */,
+			);
+			path = ListCells;
+			sourceTree = "<group>";
+		};
+		581A1CEF27DCD30A004C103A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				581A1CF027DCD320004C103A /* Results */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		581A1CF027DCD320004C103A /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				581A1CF127DCD335004C103A /* FriendResult.swift */,
+				581A1CF627DCD66C004C103A /* GroupsResult.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		581A1CF327DCD4C6004C103A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				581A1CF427DCD4D6004C103A /* ApiManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		581A1CFC27DCE66A004C103A /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				581A1CFA27DCE64B004C103A /* RoundedCornerShape.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 		586BE33527D2ACBA006DE48F = {
@@ -235,12 +312,19 @@
 			files = (
 				5806E1F027D610CE00EE6E85 /* UIApplication.swift in Sources */,
 				5806E1E127D6007000EE6E85 /* SceneDelegate.swift in Sources */,
+				581A1CFB27DCE64B004C103A /* RoundedCornerShape.swift in Sources */,
 				5806E1EC27D60E5000EE6E85 /* KeyboardNotification.swift in Sources */,
+				581A1CF227DCD335004C103A /* FriendResult.swift in Sources */,
 				5806E1DF27D5F8E800EE6E85 /* View.swift in Sources */,
+				581A1CEB27DCBE6A004C103A /* AvatarViewModifier.swift in Sources */,
 				5806E1EE27D60FA300EE6E85 /* Notification.swift in Sources */,
 				586BE34427D2ACBA006DE48F /* LoginView.swift in Sources */,
+				581A1CF527DCD4D6004C103A /* ApiManager.swift in Sources */,
+				581A1CE927DCB5F8004C103A /* BorderShadowBackgroundViewModifier.swift in Sources */,
+				581A1CEE27DCC403004C103A /* CustomRowView.swift in Sources */,
 				5806E1E627D60A5600EE6E85 /* AppDelegate.swift in Sources */,
-				5806E1DB27D5F83C00EE6E85 /* UserCellView.swift in Sources */,
+				5806E1DB27D5F83C00EE6E85 /* FriendCellView.swift in Sources */,
+				581A1CF727DCD66C004C103A /* GroupsResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
