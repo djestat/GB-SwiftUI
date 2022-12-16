@@ -22,6 +22,15 @@
 		581A1CF527DCD4D6004C103A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A1CF427DCD4D6004C103A /* ApiManager.swift */; };
 		581A1CF727DCD66C004C103A /* GroupsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A1CF627DCD66C004C103A /* GroupsResult.swift */; };
 		581A1CFB27DCE64B004C103A /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A1CFA27DCE64B004C103A /* RoundedCornerShape.swift */; };
+		5827B73B2887E66A0079109C /* AppIcon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5827B7322887E66A0079109C /* AppIcon-2.png */; };
+		5827B73C2887E66A0079109C /* 810f0f3c-7e3c-44e7-b381-1d81a0ee209e.png in Resources */ = {isa = PBXBuildFile; fileRef = 5827B7332887E66A0079109C /* 810f0f3c-7e3c-44e7-b381-1d81a0ee209e.png */; };
+		5827B73E2887E66A0079109C /* 1fff1ed5-5441-4a5b-ab40-d5e520d7cc10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5827B7352887E66A0079109C /* 1fff1ed5-5441-4a5b-ab40-d5e520d7cc10.png */; };
+		5827B73F2887E66A0079109C /* 17a7e073-b6e3-35ba-521b-6ffd5a5e4df0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5827B7362887E66A0079109C /* 17a7e073-b6e3-35ba-521b-6ffd5a5e4df0.png */; };
+		5827B7402887E66A0079109C /* f044e2d8-e550-4a01-b092-d05644800b8a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5827B7372887E66A0079109C /* f044e2d8-e550-4a01-b092-d05644800b8a.png */; };
+		5827B7412887E66A0079109C /* 272d3c55-cd0f-4b73-a5da-28edaa1f8971.png in Resources */ = {isa = PBXBuildFile; fileRef = 5827B7382887E66A0079109C /* 272d3c55-cd0f-4b73-a5da-28edaa1f8971.png */; };
+		5827B7422887E66A0079109C /* 7cc53e29-eccb-4aad-9298-65b779f35c7d.png in Resources */ = {isa = PBXBuildFile; fileRef = 5827B7392887E66A0079109C /* 7cc53e29-eccb-4aad-9298-65b779f35c7d.png */; };
+		5827B7432887E66A0079109C /* 5b6e9529-e1f4-4360-b13a-c8803822ccdb.png in Resources */ = {isa = PBXBuildFile; fileRef = 5827B73A2887E66A0079109C /* 5b6e9529-e1f4-4360-b13a-c8803822ccdb.png */; };
+		5827B7452887E6FF0079109C /* AlternateIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5827B7442887E6FF0079109C /* AlternateIconsView.swift */; };
 		586BE34427D2ACBA006DE48F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586BE34327D2ACBA006DE48F /* LoginView.swift */; };
 		586BE34627D2ACBB006DE48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586BE34527D2ACBB006DE48F /* Assets.xcassets */; };
 		586BE34927D2ACBB006DE48F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586BE34827D2ACBB006DE48F /* Preview Assets.xcassets */; };
@@ -44,6 +53,15 @@
 		581A1CF427DCD4D6004C103A /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		581A1CF627DCD66C004C103A /* GroupsResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsResult.swift; sourceTree = "<group>"; };
 		581A1CFA27DCE64B004C103A /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
+		5827B7322887E66A0079109C /* AppIcon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-2.png"; sourceTree = "<group>"; };
+		5827B7332887E66A0079109C /* 810f0f3c-7e3c-44e7-b381-1d81a0ee209e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "810f0f3c-7e3c-44e7-b381-1d81a0ee209e.png"; sourceTree = "<group>"; };
+		5827B7352887E66A0079109C /* 1fff1ed5-5441-4a5b-ab40-d5e520d7cc10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1fff1ed5-5441-4a5b-ab40-d5e520d7cc10.png"; sourceTree = "<group>"; };
+		5827B7362887E66A0079109C /* 17a7e073-b6e3-35ba-521b-6ffd5a5e4df0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "17a7e073-b6e3-35ba-521b-6ffd5a5e4df0.png"; sourceTree = "<group>"; };
+		5827B7372887E66A0079109C /* f044e2d8-e550-4a01-b092-d05644800b8a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "f044e2d8-e550-4a01-b092-d05644800b8a.png"; sourceTree = "<group>"; };
+		5827B7382887E66A0079109C /* 272d3c55-cd0f-4b73-a5da-28edaa1f8971.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "272d3c55-cd0f-4b73-a5da-28edaa1f8971.png"; sourceTree = "<group>"; };
+		5827B7392887E66A0079109C /* 7cc53e29-eccb-4aad-9298-65b779f35c7d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7cc53e29-eccb-4aad-9298-65b779f35c7d.png"; sourceTree = "<group>"; };
+		5827B73A2887E66A0079109C /* 5b6e9529-e1f4-4360-b13a-c8803822ccdb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5b6e9529-e1f4-4360-b13a-c8803822ccdb.png"; sourceTree = "<group>"; };
+		5827B7442887E6FF0079109C /* AlternateIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateIconsView.swift; sourceTree = "<group>"; };
 		586BE33E27D2ACBA006DE48F /* GB-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GB-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		586BE34327D2ACBA006DE48F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		586BE34527D2ACBB006DE48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -200,6 +218,22 @@
 			path = Shapes;
 			sourceTree = "<group>";
 		};
+		5827B7312887E64B0079109C /* AlternateIcons */ = {
+			isa = PBXGroup;
+			children = (
+				5827B7352887E66A0079109C /* 1fff1ed5-5441-4a5b-ab40-d5e520d7cc10.png */,
+				5827B73A2887E66A0079109C /* 5b6e9529-e1f4-4360-b13a-c8803822ccdb.png */,
+				5827B7392887E66A0079109C /* 7cc53e29-eccb-4aad-9298-65b779f35c7d.png */,
+				5827B7362887E66A0079109C /* 17a7e073-b6e3-35ba-521b-6ffd5a5e4df0.png */,
+				5827B7382887E66A0079109C /* 272d3c55-cd0f-4b73-a5da-28edaa1f8971.png */,
+				5827B7332887E66A0079109C /* 810f0f3c-7e3c-44e7-b381-1d81a0ee209e.png */,
+				5827B7322887E66A0079109C /* AppIcon-2.png */,
+				5827B7372887E66A0079109C /* f044e2d8-e550-4a01-b092-d05644800b8a.png */,
+				5827B7442887E6FF0079109C /* AlternateIconsView.swift */,
+			);
+			path = AlternateIcons;
+			sourceTree = "<group>";
+		};
 		586BE33527D2ACBA006DE48F = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +255,7 @@
 			children = (
 				5806E1E527D60A5600EE6E85 /* AppDelegate.swift */,
 				5806E1E027D6007000EE6E85 /* SceneDelegate.swift */,
+				5827B7312887E64B0079109C /* AlternateIcons */,
 				5806E1D527D5F7EA00EE6E85 /* APP */,
 				5806E1DC27D5F8BE00EE6E85 /* Core */,
 				586BE34527D2ACBB006DE48F /* Assets.xcassets */,
@@ -297,9 +332,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5827B7432887E66A0079109C /* 5b6e9529-e1f4-4360-b13a-c8803822ccdb.png in Resources */,
 				5806E1E827D60D3B00EE6E85 /* Main.storyboard in Resources */,
+				5827B73B2887E66A0079109C /* AppIcon-2.png in Resources */,
+				5827B73C2887E66A0079109C /* 810f0f3c-7e3c-44e7-b381-1d81a0ee209e.png in Resources */,
+				5827B7402887E66A0079109C /* f044e2d8-e550-4a01-b092-d05644800b8a.png in Resources */,
 				586BE34927D2ACBB006DE48F /* Preview Assets.xcassets in Resources */,
+				5827B73E2887E66A0079109C /* 1fff1ed5-5441-4a5b-ab40-d5e520d7cc10.png in Resources */,
+				5827B7422887E66A0079109C /* 7cc53e29-eccb-4aad-9298-65b779f35c7d.png in Resources */,
+				5827B7412887E66A0079109C /* 272d3c55-cd0f-4b73-a5da-28edaa1f8971.png in Resources */,
 				586BE34627D2ACBB006DE48F /* Assets.xcassets in Resources */,
+				5827B73F2887E66A0079109C /* 17a7e073-b6e3-35ba-521b-6ffd5a5e4df0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +363,7 @@
 				5806E1EE27D60FA300EE6E85 /* Notification.swift in Sources */,
 				586BE34427D2ACBA006DE48F /* LoginView.swift in Sources */,
 				581A1CF527DCD4D6004C103A /* ApiManager.swift in Sources */,
+				5827B7452887E6FF0079109C /* AlternateIconsView.swift in Sources */,
 				581A1CE927DCB5F8004C103A /* BorderShadowBackgroundViewModifier.swift in Sources */,
 				581A1CEE27DCC403004C103A /* CustomRowView.swift in Sources */,
 				5806E1E627D60A5600EE6E85 /* AppDelegate.swift in Sources */,
